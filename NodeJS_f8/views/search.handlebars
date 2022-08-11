@@ -1,0 +1,13 @@
+<div class="mt-4">
+     <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Search course
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    {{#each course}}
+    <a class="dropdown-item" href="courses/{{this.slug}}">{{this.slug}}</a>
+    {{/each}}
+  </div>
+</div>
+    
+</div>

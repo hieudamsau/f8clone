@@ -1,0 +1,37 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --inspect NodeJS_f8/index.js",
+    "watch": "node-sass -w NodeJS_f8/scss/app.scss NodeJS_f8/public/scss/app.css",
+    "beautiful": "prettier --single-quote --trailing-comma all --write 'NodeJS_f8/**/*.{js,json,scss}'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "express-validator": "^6.14.2",
+    "hbs": "^4.2.0",
+    "jade": "^1.11.0",
+    "jsonwebtoken": "^8.5.1",
+    "lint-staged": "^13.0.3",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.3.8",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "node-sass": "^7.0.1",
+    "nodemailer": "^6.7.5",
+    "nodemon": "^2.0.16",
+    "pug": "^3.0.2",
+    "socket.io": "^4.5.1",
+    "ws": "^8.8.0"
+  }
+}
